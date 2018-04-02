@@ -14,9 +14,10 @@ In you AppDelegate add the following code
 ```
 var array: [UIImage] = []
 var cont: Int = 0
+//Add spinner images
 while let image = UIImage(named: String(format: "spinner%d", cont))  {
-array.append(image)
-cont += 1
+    array.append(image)
+    cont += 1
 }
 
 
