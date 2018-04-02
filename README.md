@@ -11,7 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 In you AppDelegate add the following code
 
-```
+```swift
 var array: [UIImage] = []
 var cont: Int = 0
 //Add spinner images
@@ -26,12 +26,12 @@ self.window?.addSubview(CustomSpinner.sharedInstance())
 ```
 
 To start animating just call
-```
+```swift
 CustomSpinner.sharedInstance().startAnimating()
 ```
 
 To stop animating just call
-```
+```swift
 CustomSpinner.sharedInstance().stopAnimating()
 ```
 ## Requirements
