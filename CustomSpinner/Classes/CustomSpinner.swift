@@ -14,7 +14,7 @@ public class CustomSpinner: UIView {
     
     public class func sharedInstance() -> CustomSpinner! {
         if self.instance == nil {
-            self.instance = (Bundle.main.loadNibNamed("CustomSpinner", owner: nil, options: nil)![0] as! CustomSpinner)
+            self.instance = (Bundle(for: CustomSpinner.self).loadNibNamed("CustomSpinner", owner: nil, options: nil)![0] as! CustomSpinner)
             self.instance?.frame = UIScreen.main.bounds
             
         }
