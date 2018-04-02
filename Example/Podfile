@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomSpinner_Example' do
+  pod 'CustomSpinner', :path => '../'
+
+  target 'CustomSpinner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
