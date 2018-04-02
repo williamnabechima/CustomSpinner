@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CustomSpinner'
+  s.name             = 'A subclass of UIView that has a customizable spinner.'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CustomSpinner.'
+  s.summary          = 'It is a customizable spinner.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

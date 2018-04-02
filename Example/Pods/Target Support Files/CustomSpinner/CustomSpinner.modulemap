@@ -1,0 +1,6 @@
+framework module CustomSpinner {
+  umbrella header "CustomSpinner-umbrella.h"
+
+  export *
+  module * { export * }
+}

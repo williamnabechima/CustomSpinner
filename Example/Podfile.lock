@@ -1,0 +1,16 @@
+PODS:
+  - CustomSpinner (0.1.0)
+
+DEPENDENCIES:
+  - CustomSpinner (from `../`)
+
+EXTERNAL SOURCES:
+  CustomSpinner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CustomSpinner: dc7cfe1b26e09e8295d7029753210d9eaf7bd943
+
+PODFILE CHECKSUM: 6b27186b10be0aa9a0c7fc7ecf45bfcf9ce63e39
+
+COCOAPODS: 1.4.0

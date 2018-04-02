@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D1010532691A934C158086E /* CustomSpinner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomSpinner.podspec; path = ../CustomSpinner.podspec; sourceTree = "<group>"; };
-		1E461F3CE990E202335E796B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1D1010532691A934C158086E /* CustomSpinner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomSpinner.podspec; path = ../CustomSpinner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E461F3CE990E202335E796B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2FF79AB7095B9207E66B1256 /* Pods-CustomSpinner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSpinner_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSpinner_Tests/Pods-CustomSpinner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4BAD53C123D2554AEEC73F63 /* Pods-CustomSpinner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSpinner_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSpinner_Example/Pods-CustomSpinner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		57180A3D081EAC73F1533B60 /* Pods-CustomSpinner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSpinner_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSpinner_Tests/Pods-CustomSpinner_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* CustomSpinner_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSpinner_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		70AFA72A62762BE0B496AB15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		70AFA72A62762BE0B496AB15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9588359550AD775CC9B8B406 /* Pods_CustomSpinner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSpinner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C144A03EFBDDBF1F18AAF77C /* Pods_CustomSpinner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSpinner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBAC16E0FD8FD2E769C9A82F /* Pods-CustomSpinner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSpinner_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomSpinner_Example/Pods-CustomSpinner_Example.release.xcconfig"; sourceTree = "<group>"; };

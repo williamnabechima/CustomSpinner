@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CustomSpinner
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        var array: [UIImage] = []
+        var cont: Int = 0
+        while let image = UIImage(named: String(format: "spinner%d", cont))  {
+            array.append(image)
+            cont += 1
+        }
+        
+        
+        CustomSpinner.sharedInstance().setImageArray(array: array)
+        self.window?.addSubview(CustomSpinner.sharedInstance())
         return true
     }
 
