@@ -9,6 +9,30 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+In you AppDelegate add the following code
+
+```
+var array: [UIImage] = []
+var cont: Int = 0
+while let image = UIImage(named: String(format: "spinner%d", cont))  {
+array.append(image)
+cont += 1
+}
+
+
+CustomSpinner.sharedInstance().setImageArray(array: array)
+self.window?.addSubview(CustomSpinner.sharedInstance())
+```
+
+To start animating just call
+```
+CustomSpinner.sharedInstance().startAnimating()
+```
+
+To stop animating just call
+```
+CustomSpinner.sharedInstance().stopAnimating()
+```
 ## Requirements
 
 ## Installation
